@@ -30,8 +30,8 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # git clone --depth 1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 # git clone --depth 1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 # git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
-git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall-packages package/luci-app-passwall-packages
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall package/luci-app-passwall
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/luci-app-passwall-packages
 
 # Add packages
 #git clone -b js https://github.com/gngpp/luci-theme-design package/luci-theme-design
